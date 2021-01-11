@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'club.smarti'
-version '0.1.0'
+version '0.1.1'
 
 compileJava.options.encoding = 'UTF-8'
 
@@ -19,7 +19,7 @@ repositories {
 dependencies {
     // Code dependencies:
     implementation 'org.jetbrains:annotations:16.0.2'
-    implementation 'club.smarti:java:0.2.4'
+    implementation 'club.smarti:java:0.2.5'
 
     // Unit test environment:
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
